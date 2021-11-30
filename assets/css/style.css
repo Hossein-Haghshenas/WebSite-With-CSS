@@ -1,0 +1,59 @@
+@import url("https://v1.fontapi.ir/css/Vazir");
+
+:root {
+  --transition: all 0.4s ease-in-out;
+  --s-border: 1px solid rgb(83, 83, 83);
+  --box-shadow-p: 0 0 3px 1px rgba(76, 0, 255, 0.856);
+  --box-shadow-b: 0 0 4px 1px rgba(150, 150, 150, 0.856);
+  --text-shadow-p: 0 0 3px rgba(76, 0, 255, 0.493);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+body {
+  color: rgb(53, 53, 53);
+  font-size: 16px;
+  font-family: "Vazir", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+header {
+  background: rgb(221, 221, 221);
+  padding: 0.5rem 1.5rem;
+  font-size: 15px;
+}
+
+.navbar-menu-item {
+  color: white;
+  margin: 10px;
+}
+.navbar-menu-icon i {
+  color: rgba(76, 0, 255, 0.856);
+  transition: var(--transition);
+}
+.navbar-menu-icon i:hover {
+  color: rgba(76, 0, 255, 0.966);
+  text-shadow: var(--text-shadow);
+  transform: scale(1.1);
+}
+.login-btn {
+  color: rgba(76, 0, 255, 0.856);
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  transition: var(--transition);
+  box-shadow: var(--box-shadow-b);
+}
+.login-btn:hover {
+  box-shadow: var(--box-shadow-p);
+}
