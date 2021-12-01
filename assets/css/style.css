@@ -28,8 +28,10 @@ li {
   list-style: none;
 }
 
+/* header start */
+
 header {
-  background: rgb(221, 221, 221);
+  background: rgb(255, 255, 255);
   padding: 0.5rem 1.5rem;
   font-size: 15px;
 }
@@ -57,3 +59,47 @@ header {
 .login-btn:hover {
   box-shadow: var(--box-shadow-p);
 }
+
+/* header end */
+
+/* Home Wallpaper start */
+
+.Home-Wallpaper {
+  background-image: url("../image/dhaval-parmar-dnPniNPUe4o-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+  width: 100%;
+}
+.Home-Wallpaper p {
+  color: rgba(76, 0, 255, 0.856);
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  -webkit-animation-name: color-change;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 5s;
+}
+@keyframes color-change {
+  0% {
+    color: rgba(0, 183, 255, 0.856);
+    text-shadow: 2px 2px 5px rgba(0, 183, 255, 0.856);
+  }
+  25% {
+    color: rgba(255, 0, 0, 0.856);
+    text-shadow: 2px 2px 6px rgba(255, 0, 0, 0.856);
+  }
+  50% {
+    color: rgba(195, 0, 255, 0.856);
+    text-shadow: 2px 2px 7px rgba(195, 0, 255, 0.856);
+  }
+  100% {
+    color: rgba(0, 183, 255, 0.856);
+    text-shadow: 2px 2px 8px rgba(0, 183, 255, 0.856);
+  }
+}
+
+/* Home Wallpaper end */
