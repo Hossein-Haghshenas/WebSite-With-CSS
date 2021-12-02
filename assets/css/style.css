@@ -174,10 +174,26 @@ header {
   background: rgba(89, 0, 255, 0.795);
   box-shadow: 0 0 2px 1px rgba(76, 0, 255, 0.966);
 }
-.control-circles {
+.control-circles a {
   font-size: 12px;
-  color: rgb(105, 105, 105);
+  color: rgb(105, 105, 105) !important;
 }
 .control-circles li:nth-child(1) i {
-  color: rgb(56, 56, 56);
+  color: rgb(56, 56, 56) !important;
+}
+footer {
+  background: rgb(147 145 255 / 60%);
+  padding: 3rem;
+  box-shadow: 1px 1px 10px 2px rgb(147 145 255 / 70%);
+}
+.ContactUs-icons ul li i {
+  font-size: 20px;
+  margin: 0.5rem;
+  transform: rotate(0);
+  transition: var(--transition);
+}
+.ContactUs-icons ul li i:hover {
+  font-size: 20px;
+  margin: 0.5rem;
+  transform: rotate(360deg);
 }
