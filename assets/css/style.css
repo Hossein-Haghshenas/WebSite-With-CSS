@@ -14,6 +14,7 @@
   box-sizing: border-box;
   border: none;
   outline: none;
+  direction: rtl;
 }
 body {
   color: rgb(53, 53, 53);
@@ -71,6 +72,7 @@ header {
   background-position: center;
   height: 30rem;
   width: 100%;
+  box-shadow: var(--box-shadow-p);
 }
 .Home-Wallpaper p {
   color: rgba(76, 0, 255, 0.856);
@@ -103,3 +105,56 @@ header {
 }
 
 /* Home Wallpaper end */
+
+/* Products-card */
+.Products-cards {
+  width: 100%;
+}
+.card {
+  padding: 10px;
+  margin: 10px;
+  width: 13rem;
+  box-shadow: var(--box-shadow-b);
+}
+.lable-text {
+  background: rgba(89, 0, 255, 0.795);
+  color: white;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 0.3rem 0.8rem;
+  font-size: 13px;
+}
+.stars {
+  color: rgb(255, 98, 25);
+}
+.card-info-price {
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+  font-weight: 500;
+}
+.card-info-icon > span {
+  z-index: 8;
+  color: white;
+  background: rgba(89, 0, 255, 0.795);
+  padding: 5px;
+  margin: 0.1rem;
+  border-radius: 100%;
+  font-size: 12px;
+  cursor: pointer;
+}
+.card-info-icon > span i {
+  transition: padding 0.8s ease-in-out;
+}
+.info-icon-text {
+  display: none;
+}
+.card-info-icon > span:hover {
+  border-radius: 20px;
+  direction: ltr !important;
+}
+.card-info-icon > span:hover i {
+  padding-right: 10px;
+}
+.card-info-icon > span:hover .info-icon-text {
+  display: block !important;
+}
