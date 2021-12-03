@@ -107,6 +107,21 @@ header {
 /* Home Wallpaper end */
 
 /* cards start */
+.Products-title h3 {
+  position: relative;
+  margin: 2.5rem 0;
+  padding: 0.5rem 0;
+}
+.Products-title h3:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 0.5px;
+  background: rgba(89, 0, 255, 0.795);
+  box-shadow: 0 0 1px 0.5px rgba(76, 0, 255, 0.966);
+}
 .Products-cards {
   width: 100%;
 }
@@ -163,21 +178,6 @@ header {
 
 /* accessories start */
 
-.accessories-title h3 {
-  position: relative;
-  margin: 2.5rem 0;
-  padding: 0.5rem 0;
-}
-.accessories-title h3:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 0.5px;
-  background: rgba(89, 0, 255, 0.795);
-  box-shadow: 0 0 2px 1px rgba(76, 0, 255, 0.966);
-}
 .control-circles a {
   font-size: 12px;
   color: rgb(105, 105, 105) !important;
