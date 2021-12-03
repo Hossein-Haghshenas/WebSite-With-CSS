@@ -106,7 +106,7 @@ header {
 
 /* Home Wallpaper end */
 
-/* Products-card */
+/* cards start */
 .Products-cards {
   width: 100%;
 }
@@ -133,19 +133,19 @@ header {
   font-weight: 500;
 }
 .card-info-icon > span {
-  z-index: 8;
   color: white;
   background: rgba(89, 0, 255, 0.795);
-  padding: 5px;
   margin: 0.1rem;
   border-radius: 100%;
   font-size: 12px;
   cursor: pointer;
 }
 .card-info-icon > span i {
+  padding: 5px;
   transition: padding 0.8s ease-in-out;
 }
 .info-icon-text {
+  padding: 0 5px 0 0;
   display: none;
 }
 .card-info-icon > span:hover {
@@ -153,11 +153,15 @@ header {
   direction: ltr !important;
 }
 .card-info-icon > span:hover i {
-  padding-right: 10px;
+  padding-right: 15px;
 }
 .card-info-icon > span:hover .info-icon-text {
   display: block !important;
 }
+
+/* cards end */
+
+/* accessories start */
 
 .accessories-title h3 {
   position: relative;
@@ -181,6 +185,11 @@ header {
 .control-circles li:nth-child(1) i {
   color: rgb(56, 56, 56) !important;
 }
+
+/* accessories end */
+
+/* footer start */
+
 footer {
   background: rgb(147 145 255 / 60%);
   padding: 3rem;
@@ -197,3 +206,5 @@ footer {
   margin: 0.5rem;
   transform: rotate(360deg);
 }
+
+/* footer end */
